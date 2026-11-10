@@ -155,7 +155,7 @@
     </div>
 
     <div class="links">
-      <a class="btn primary" href="#demo">화면 보기</a>
+      <a class="btn primary" href="#video">시연 영상 보기</a>
       <a class="btn" href="#how">작동 원리</a>
       <a class="btn" href="https://huggingface.co/nnujabes/pickcu-ax-4.0-light-lora">파인튜닝 어댑터 (Hugging Face)</a>
     </div>
@@ -195,6 +195,13 @@
     <h2>해결 방법과 데모</h2>
     <p class="sub">카테고리를 1~3개 고르고 문장을 적으면, 카테고리마다 1개씩 묶은 조합 5개가 나옵니다. 상품에 마우스를 올리면 영양소 6종이 보이고, 조합째 장바구니에 담을 수 있습니다.</p>
 
+    <figure id="video" style="margin-bottom:18px">
+      <video controls preload="metadata" playsinline poster="images/demo-result.png" style="width:100%;height:auto;display:block;border-radius:12px;border:1px solid var(--line);background:#000">
+        <source src="videos/PickCU_%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%81.mp4" type="video/mp4">
+        브라우저가 영상 재생을 지원하지 않습니다. <a href="videos/PickCU_%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%81.mp4">영상 파일 받기</a>
+      </video>
+      <figcaption>시연 영상 (1분 37초). 조건 입력 → Top 5 결과 → 영양 정보 → 장바구니 → 별점 → 전체 상품 → 휴대폰 화면</figcaption>
+    </figure>
     <figure>
       <img src="images/demo-result.png" alt="추천 결과 화면. 간편식사와 음료를 고르고 '운동 후 먹을 1만 원 미만의 음식을 추천해줘'를 입력하자 TOP 1 조합(단백질 높게, 지방 낮게, 10,000원 이하, 합계 9,800원)과 상품의 영양정보 창이 보인다" loading="lazy" width="1672" height="941">
       <figcaption>추천 결과 (화이트 모드). TOP 1 조합의 합계 가격과 총 단백질·열량·지방, 상품별 영양소 6종</figcaption>
@@ -357,6 +364,7 @@
     </div>
     <div class="links">
       <a class="btn primary" href="presentation/%EC%B5%9C%EC%A2%85PPT.pptx" download>발표자료 (PPT)</a>
+      <a class="btn" href="#video">시연 영상</a>
       <a class="btn" href="https://huggingface.co/nnujabes/pickcu-ax-4.0-light-lora">파인튜닝 어댑터 (Hugging Face)</a>
       <a class="btn" href="https://github.com/nnujabes/Pick_CU">GitHub 저장소 <span style="color:var(--muted);font-weight:400">(팀 비공개 · 권한이 있는 사람만 열림)</span></a>
     </div>
