@@ -99,6 +99,7 @@ LLM은 문장을 해석하는 1단계에서만 씁니다. 나머지는 DB와 Pyt
 - 프로젝트 페이지: https://meloncookiee.github.io/pick-cu/
 - GitHub 저장소: https://github.com/nnujabes/Pick_CU (팀 비공개 · 권한이 있는 사람만 열림)
 - 파인튜닝 어댑터: https://huggingface.co/nnujabes/pickcu-ax-4.0-light-lora
-- 발표자료 · 시연 영상: 준비 중
+- 발표자료: [presentation/최종PPT.pptx](presentation/최종PPT.pptx) (PowerPoint, 42장)
+- 시연 영상: 준비 중
 
 이 저장소는 프로젝트 소개 페이지(`index.html`)만 담고 있습니다. 코드와 실행 방법은 팀 저장소에 있습니다.
