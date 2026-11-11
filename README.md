@@ -1,8 +1,8 @@
-# 영양 편의점 (Pick CU)
+# 영양 편의점 (PickNutri)
 
 상황과 예산을 평소 말투로 적으면, CU 상품 2,154개 중에서 예산 안의 상품 조합 Top 5를 영양 합계와 함께 추천하는 서비스입니다. 팀 아이넷의 LLM 수업 프로젝트입니다.
 
-**프로젝트 페이지: https://meloncookiee.github.io/pick-cu/**
+**프로젝트 페이지: https://meloncookiee.github.io/pick-nutri/**
 
 ## 문제
 
@@ -33,7 +33,7 @@
 
 ![추천 결과 화면: TOP 1 조합의 합계 가격, 총 단백질·열량·지방과 상품별 영양소 6종](images/demo-result.png)
 
-시연 영상(1분 37초): [페이지에서 바로 보기](https://meloncookiee.github.io/pick-cu/#video) · [파일](videos/PickCU_시연영상.mp4)
+시연 영상(1분 37초): [페이지에서 바로 보기](https://meloncookiee.github.io/pick-nutri/#video) · [파일](videos/PickCU_시연영상.mp4)
 
 | 다크 모드 | 휴대폰 화면 |
 | --- | --- |
@@ -98,10 +98,10 @@ LLM은 문장을 해석하는 1단계에서만 씁니다. 나머지는 DB와 Pyt
 
 ## 링크
 
-- 프로젝트 페이지: https://meloncookiee.github.io/pick-cu/
+- 프로젝트 페이지: https://meloncookiee.github.io/pick-nutri/
 - GitHub 저장소: https://github.com/nnujabes/Pick_CU (팀 비공개 · 권한이 있는 사람만 열림)
 - 파인튜닝 어댑터: https://huggingface.co/nnujabes/pickcu-ax-4.0-light-lora
 - 발표자료: [presentation/최종PPT.pptx](presentation/최종PPT.pptx) (PowerPoint, 42장)
-- 시연 영상: [videos/PickCU_시연영상.mp4](videos/PickCU_시연영상.mp4) (1분 37초) · [페이지에서 바로 보기](https://meloncookiee.github.io/pick-cu/#video)
+- 시연 영상: [videos/PickCU_시연영상.mp4](videos/PickCU_시연영상.mp4) (1분 37초) · [페이지에서 바로 보기](https://meloncookiee.github.io/pick-nutri/#video)
 
 이 저장소는 프로젝트 소개 페이지(`index.html`)만 담고 있습니다. 코드와 실행 방법은 팀 저장소에 있습니다.
